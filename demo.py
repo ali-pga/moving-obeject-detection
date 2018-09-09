@@ -76,10 +76,7 @@ while True:
     # (fx,fy) = flow[y,x].T
     flows[window_size-2]=flow
     print(flow.shape)
-    # fx_1 , fy_1 = flows[0]
-    # fx_2 , fy_2 = flows[1]
-    # fx = fx_1 - fx_2
-    # fy = fy_1 - fy_2
+    
 
     #
     flow_diff = flows[1]-flows[0]
